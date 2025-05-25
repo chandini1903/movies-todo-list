@@ -1,0 +1,30 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css");
+
+/* Gradient Background */
+.gradient-bg {
+  background: linear-gradient(135deg, #2b5876, #4e4376);
+  color: white;
+}
+
+/* Custom Card Styling */
+.card {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* Hover Effects */
+.list-group-item:hover {
+  transform: scale(1.05);
+  transition: 0.3s ease-in-out;
+}
+
+/* Input and Button Styling */
+.form-control {
+  border-radius: 10px;
+  font-size: 30px;
+}
+
+.btn {
+  border-radius: 10px;
+}
